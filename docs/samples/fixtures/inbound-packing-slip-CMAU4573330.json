@@ -1,0 +1,37 @@
+{
+  "documentType": "FACTORY_PACKING_SLIP",
+  "source": ["docs/samples/02-inbound-factory-packing-slip-17660227-CMAU4573330.jpg", "docs/samples/03-inbound-factory-packing-slip-17660227-CMAU4573330-carton-dims-handwritten.jpg"],
+  "direction": "INBOUND",
+  "goodsOwner": "17660227 Canada Inc",
+  "factoryInvoice": "3100EXP26000714",
+  "containerNumber": "CMAU4573330",
+  "portOfDischarge": "Montreal, QC",
+  "purpose": "Full container contents as shipped by factory",
+  "palletsAnnounced": null,
+  "weightAnnounced": null,
+  "handwrittenCartonDimensionsIn": {
+    "note": "Added by hand on the client's copy; the slip itself has no dimensions. One size per product type.",
+    "Bath Sheet 32x64": [23.5, 16, 14],
+    "Bath Towel": [23.5, 16, 12],
+    "Hand Towel 16x27": [22, 16, 12],
+    "Face Cloth 13x13": [20, 16, 11]
+  },
+  "lines": [
+    { "description": "Nord Bath Sheet 32x64", "sku": "220473", "po": "587028", "casePack": 24, "units": 3864, "cartons": 161 },
+    { "description": "Nord Bath Sheet 32x64", "sku": "220473", "po": "587029", "casePack": 24, "units": 336, "cartons": 14 },
+    { "description": "Novara Bath Towel 27x54", "sku": "220527", "po": "587105", "casePack": 24, "units": 2640, "cartons": 110 },
+    { "description": "Novara Bath Towel 27x54", "sku": "220527", "po": "587106", "casePack": 24, "units": 336, "cartons": 14 },
+    { "description": "Novara Hand Towel 16x27", "sku": "220528", "po": "587105", "casePack": 36, "units": 3816, "cartons": 106 },
+    { "description": "Novara Hand Towel 16x27", "sku": "220528", "po": "587106", "casePack": 36, "units": 504, "cartons": 14 },
+    { "description": "Novara Face Cloth 13x13", "sku": "220529", "po": "587105", "casePack": 36, "units": 3816, "cartons": 106 },
+    { "description": "Novara Face Cloth 13x13", "sku": "220529", "po": "587106", "casePack": 36, "units": 504, "cartons": 14 },
+    { "description": "Notika Bath Towel 26x50", "sku": "220509", "po": "587073", "casePack": 24, "units": 2640, "cartons": 110 },
+    { "description": "Notika Bath Towel 26x50", "sku": "220509", "po": "587074", "casePack": 24, "units": 336, "cartons": 14 },
+    { "description": "Notika Hand Towel 16x27", "sku": "220510", "po": "587073", "casePack": 36, "units": 3816, "cartons": 106 },
+    { "description": "Notika Hand Towel 16x27", "sku": "220510", "po": "587074", "casePack": 36, "units": 504, "cartons": 14 },
+    { "description": "Notika Face Cloth 13x13", "sku": "220511", "po": "587073", "casePack": 36, "units": 3816, "cartons": 106 },
+    { "description": "Notika Face Cloth 13x13", "sku": "220511", "po": "587074", "casePack": 36, "units": 504, "cartons": 14 },
+    { "description": "Novik 5PK Face Cloth Set", "sku": "221478", "po": "587867", "casePack": 24, "units": 3984, "cartons": 166 }
+  ],
+  "totals": { "units": 31416, "cartons": 1069 }
+}

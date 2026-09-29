@@ -1,0 +1,56 @@
+{
+  "documentType": "WAREHOUSE_RECEIPT",
+  "source": ["docs/samples/10-warehouse-receipt-R03455-TCNU1215415-page1-how-its-stored.jpg", "docs/samples/09-warehouse-receipt-R03455-TCNU1215415-page2.jpg"],
+  "note": "Printed by the client's current system after the container was palletized. Handwritten: 'How it's stored'. This is the pallet-level record the new system must reproduce: one lot number per pallet, one SKU+PO per pallet, cases and weight per pallet.",
+  "issuer": "Pride Container Services",
+  "warehouse": "Pride Warehouse, 5020 rue Courval, Saint-Laurent, QC H4T 1L1",
+  "client": "RKP ARRIVAL",
+  "receipt": "R03455",
+  "receiptDate": "2026-09-22",
+  "printedAt": "2026-09-23T14:31:00",
+  "receivingRef": "TCNU1215415",
+  "carrier": "PRIDE",
+  "weightUnit": "kg",
+  "totals": { "pallets": 44, "cases": 1169, "grossWeightKg": 10869, "netWeightKg": 10869 },
+  "items": [
+    { "sku": "219905", "po": "585823", "description": "ECHO BATH TOWEL", "pallets": 7, "cases": 138, "weightKg": 1470,
+      "palletList": [
+        { "lot": "0000548487", "cases": 21, "weightKg": 210 }, { "lot": "0000548488", "cases": 21, "weightKg": 210 }, { "lot": "0000548489", "cases": 21, "weightKg": 210 },
+        { "lot": "0000548490", "cases": 21, "weightKg": 210 }, { "lot": "0000548491", "cases": 21, "weightKg": 210 }, { "lot": "0000548492", "cases": 21, "weightKg": 210 },
+        { "lot": "0000548493", "cases": 12, "weightKg": 210 } ] },
+    { "sku": "219905", "po": "585824", "description": "ECHO BATH TOWEL", "pallets": 3, "cases": 57, "weightKg": 630,
+      "palletList": [ { "lot": "0000548494", "cases": 21, "weightKg": 210 }, { "lot": "0000548495", "cases": 21, "weightKg": 210 }, { "lot": "0000548496", "cases": 15, "weightKg": 210 } ] },
+    { "sku": "219907", "po": "585823", "description": "ECHO HAND TOWEL", "pallets": 3, "cases": 100, "weightKg": 960,
+      "palletList": [ { "lot": "0000548497", "cases": 40, "weightKg": 320 }, { "lot": "0000548498", "cases": 40, "weightKg": 320 }, { "lot": "0000548499", "cases": 20, "weightKg": 320 } ] },
+    { "sku": "219907", "po": "585824", "description": "ECHO HAND TOWEL", "pallets": 2, "cases": 50, "weightKg": 640,
+      "palletList": [ { "lot": "0000548500", "cases": 40, "weightKg": 320 }, { "lot": "0000548501", "cases": 10, "weightKg": 320 } ] },
+    { "sku": "219908", "po": "585823", "description": "ECHO FACE TOWEL", "pallets": 1, "cases": 100, "weightKg": 700,
+      "palletList": [ { "lot": "0000548502", "cases": 100, "weightKg": 700 } ] },
+    { "sku": "219908", "po": "585824", "description": "ECHO FACE TOWEL", "pallets": 1, "cases": 70, "weightKg": 490,
+      "palletList": [ { "lot": "0000548503", "cases": 70, "weightKg": 490 } ] },
+    { "sku": "219909", "po": "585823", "description": "ECHO 5PK FACE TOWEL", "pallets": 3, "cases": 110, "weightKg": 972,
+      "palletList": [ { "lot": "0000548504", "cases": 36, "weightKg": 324 }, { "lot": "0000548505", "cases": 36, "weightKg": 324 }, { "lot": "0000548506", "cases": 38, "weightKg": 324 } ] },
+    { "sku": "219882", "po": "585805", "description": "BASIX 3PK KITCHEN TOWEL", "pallets": 9, "cases": 225, "weightKg": 1800,
+      "palletList": [
+        { "lot": "0000548508", "cases": 25, "weightKg": 200 }, { "lot": "0000548509", "cases": 25, "weightKg": 200 }, { "lot": "0000548510", "cases": 25, "weightKg": 200 },
+        { "lot": "0000548511", "cases": 25, "weightKg": 200 }, { "lot": "0000548512", "cases": 25, "weightKg": 200 }, { "lot": "0000548513", "cases": 25, "weightKg": 200 },
+        { "lot": "0000548514", "cases": 25, "weightKg": 200 }, { "lot": "0000548515", "cases": 25, "weightKg": 200 }, { "lot": "0000548516", "cases": 25, "weightKg": 200 } ] },
+    { "sku": "219882", "po": "585819", "description": "BASIX 3PK KITCHEN TOWEL", "pallets": 6, "cases": 150, "weightKg": 1200,
+      "palletList": [
+        { "lot": "0000548517", "cases": 25, "weightKg": 200 }, { "lot": "0000548518", "cases": 25, "weightKg": 200 }, { "lot": "0000548519", "cases": 25, "weightKg": 200 },
+        { "lot": "0000548520", "cases": 25, "weightKg": 200 }, { "lot": "0000548521", "cases": 25, "weightKg": 200 }, { "lot": "0000548522", "cases": 25, "weightKg": 200 } ] },
+    { "sku": "217272", "po": "585860", "description": "ESSENZIA KITCHEN TOWEL 10PK", "pallets": 1, "cases": 43, "weightKg": 215,
+      "palletList": [ { "lot": "0000548523", "cases": 43, "weightKg": 215 } ] },
+    { "sku": "210035", "po": "581465", "description": "SERENIK FACE CLOTHS PK15", "pallets": 8, "cases": 126, "weightKg": 1792,
+      "palletList": [
+        { "lot": "0000548524", "cases": 16, "weightKg": 224 }, { "lot": "0000548525", "cases": 16, "weightKg": 224 }, { "lot": "0000548526", "cases": 16, "weightKg": 224 },
+        { "lot": "0000548527", "cases": 16, "weightKg": 224 }, { "lot": "0000548528", "cases": 16, "weightKg": 224 }, { "lot": "0000548529", "cases": 16, "weightKg": 224 },
+        { "lot": "0000548530", "cases": 16, "weightKg": 224 }, { "lot": "0000548531", "cases": 14, "weightKg": 224 } ] }
+  ],
+  "observations": [
+    "Cases per full pallet depend on the product: bath towels 21, hand towels 40, face towels 100, 5-pack sets 36-38, kitchen towels 25, face cloth packs 16.",
+    "Weight per pallet is printed as the full-pallet weight even on the short last pallet (12 cases still shows 210 kg): the current system computes it from a per-item pallet weight, not from a scale.",
+    "Lot numbers are sequential 10-digit numbers assigned at receiving; 0000548507 is missing from the sequence (44 pallets, 45 numbers).",
+    "The receipt lists item, lot, description and weight, but no location: the current system does not record where a pallet is."
+  ]
+}

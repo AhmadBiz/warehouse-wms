@@ -1,0 +1,21 @@
+{
+  "documentType": "PICKUP_PACKING_SLIP",
+  "source": "docs/samples/01-outbound-pickup-slip-rossy-17660227.jpg",
+  "direction": "OUTBOUND",
+  "note": "The release request for part of container CMAU4573330: a named person picks up whole PO lines. Lines are SKU + PO + cartons; no pallet numbers. 805 of the container's 1,069 cartons leave; the 14-carton PO lines (587029, 587074, 587106) and the Novik sets (166 cartons) stay.",
+  "goodsOwner": "17660227 Canada Inc",
+  "pickupFor": "Michael Rossy",
+  "poReferences": ["PO-587028", "PO-587073", "PO-587105"],
+  "pickupDate": "2026-09-29",
+  "pickupFrom": "Arrival Air & Sea Transport — Montreal, QC",
+  "lines": [
+    { "description": "Nord Bath Sheet 32x64", "sku": "220473", "po": "587028", "casePack": 24, "units": 3864, "cartons": 161 },
+    { "description": "Novara Bath Towel 27x54", "sku": "220527", "po": "587105", "casePack": 24, "units": 2640, "cartons": 110 },
+    { "description": "Novara Hand Towel 16x27", "sku": "220528", "po": "587105", "casePack": 36, "units": 3816, "cartons": 106 },
+    { "description": "Novara Face Cloth 13x13", "sku": "220529", "po": "587105", "casePack": 36, "units": 3816, "cartons": 106 },
+    { "description": "Notika Bath Towel 26x50", "sku": "220509", "po": "587073", "casePack": 24, "units": 2640, "cartons": 110 },
+    { "description": "Notika Hand Towel 16x27", "sku": "220510", "po": "587073", "casePack": 36, "units": 3816, "cartons": 106 },
+    { "description": "Notika Face Cloth 13x13", "sku": "220511", "po": "587073", "casePack": 36, "units": 3816, "cartons": 106 }
+  ],
+  "totals": { "units": 24408, "cartons": 805 }
+}

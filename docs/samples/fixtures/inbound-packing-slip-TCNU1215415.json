@@ -1,0 +1,28 @@
+{
+  "documentType": "FACTORY_PACKING_SLIP",
+  "source": "docs/samples/08-inbound-factory-packing-slip-17660227-TCNU1215415.jpg",
+  "direction": "INBOUND",
+  "goodsOwner": "17660227 Canada Inc",
+  "warehouseClient": "RKP Arrival (Arrival Air & Sea Transport)",
+  "factoryInvoice": "LT/26-27/140",
+  "containerNumber": "TCNU1215415",
+  "portOfDischarge": "Montreal, QC",
+  "purpose": "Full container contents as shipped by factory",
+  "palletsAnnounced": null,
+  "weightAnnounced": null,
+  "cartonDimensionsAnnounced": null,
+  "lines": [
+    { "description": "Echo Bath Towel", "sku": "219905", "po": "585823", "casePack": 24, "units": 3312, "cartons": 138 },
+    { "description": "Echo Bath Towel", "sku": "219905", "po": "585824", "casePack": 24, "units": 1368, "cartons": 57 },
+    { "description": "Echo Hand Towel", "sku": "219907", "po": "585823", "casePack": 36, "units": 3600, "cartons": 100 },
+    { "description": "Echo Hand Towel", "sku": "219907", "po": "585824", "casePack": 36, "units": 1800, "cartons": 50 },
+    { "description": "Echo Face Towel", "sku": "219908", "po": "585823", "casePack": 36, "units": 3600, "cartons": 100 },
+    { "description": "Echo Face Towel", "sku": "219908", "po": "585824", "casePack": 36, "units": 2520, "cartons": 70 },
+    { "description": "Echo 5PK Face Towel Set", "sku": "219909", "po": "585823", "casePack": 24, "units": 13200, "cartons": 110, "note": "units counted as single cloths (5 per set x 24 sets = 120 per carton)" },
+    { "description": "Basix 3PK Kitchen Towel", "sku": "219882", "po": "585805", "casePack": 24, "units": 5400, "cartons": 225 },
+    { "description": "Basix 3PK Kitchen Towel", "sku": "219882", "po": "585819", "casePack": 24, "units": 3600, "cartons": 150 },
+    { "description": "Essenzia Kitchen Towel Pk10", "sku": "217272", "po": "585860", "casePack": 12, "units": 516, "cartons": 43 },
+    { "description": "Serenik Face Cloths Pk15", "sku": "210035", "po": "581465", "casePack": 24, "units": 3024, "cartons": 126 }
+  ],
+  "totals": { "units": 41940, "cartons": 1169 }
+}
