@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #f1f5f9; /* slate-100 */
+  color: #0f172a; /* slate-900 */
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Big-button screens for the forklift phone */
+.touch-btn {
+  min-height: 3.25rem;
+  font-size: 1.05rem;
+}
+
+/* Labels print one per page */
+@media print {
+  .no-print { display: none !important; }
+  body { background: white; }
+  .label-sheet { display: block; }
+  .label { page-break-after: always; break-after: page; border: none !important; box-shadow: none !important; margin: 0 !important; }
+  @page { size: 4in 6in; margin: 0.15in; }
+}
